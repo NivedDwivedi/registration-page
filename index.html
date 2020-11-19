@@ -1,0 +1,75 @@
+<div class="container">
+	<div class="form-title">
+		<p>Registration Form<p>
+	</div>
+	<div class="form-wrapper">
+		<form name="myForm" onsubmit=" return validation()">
+			<div class="form-container">
+				<div class="row">
+					<div class="row-50">
+						<input type="text" name="Fname" id="fname" placeholder="First Name">
+					</div>
+						<div class="row-50">
+							<input type="text" name="Lname" placeholder="Last Name" >
+					</div>
+						</div>
+						<div class="row">
+							<div class="row-50">
+								<div class="row-25">
+									<input type="radio" name="Male" id="male" value="Male" checked>
+									<label for="Male">Male</label>
+								</div>
+								<div class="row-25">
+									<input type="radio" name="Female" id="female" value="Female">
+									<label for="Female">Female</label>
+								</div>
+							</div>
+
+							<div class="row-50">
+								<input type="email" name="Email" placeholder="Email">
+					</div>
+
+							</div>
+							<div class="row">
+								<div class="row-50">
+									<input type="text" name="Mobile" placeholder="Mobile Number">
+					</div>
+									<div class="row-50">
+										<input type="date" name="DOB">
+					</div>
+
+									</div>
+									<div class="row">
+										<div class="row-100">
+											<input type="text" name="Address" placeholder="Address">
+					</div>
+
+										</div>
+										<div class="row">
+											<div class="row-50">
+												<input type="text" name="city" placeholder="City">
+					</div>
+
+												<div class="row-50">
+													<input type="text" name="pincode" placeholder="Pincode">
+					</div>
+
+												</div>
+												<div class="row">
+													<div class="row-50">
+														<input type="text" name="Linkedin" id="url" pattern="https://.*" size="30"  placeholder="Linkedin url">
+					</div>
+														<div class="row-50">
+															<input type="text" name="Twitter" id="url" pattern="https://.*" size="30"  placeholder="Twitter url">
+					</div>
+
+														</div>
+														<div class="row">
+															<div class="row-submit">
+																<button>Submit</button>
+															</div>
+														</div>
+													</div>
+		</form>
+	</div>
+</div>
